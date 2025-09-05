@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 let userID = "pushtoiphone";
-let pushIP = "push.cf.090227.xyz";
+let pushIP = "";
 let DNS64Server = "";
 //let sub = '';
 let subConverter = atob("U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=");
@@ -160,7 +160,7 @@ export default {
               {
                 status: 200,
                 headers: {
-                  "Content-Type": "text/html; charset=UTF-8",
+                  "Content-Type": "application/json",
                 },
               }
             );
