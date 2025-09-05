@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 let userID = "pushtoiphone";
-let pushIP = "";
+let pushIP = "push.cf.090227.xyz";
 let DNS64Server = "";
 //let sub = '';
 let subConverter = atob("U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=");
@@ -24,7 +24,7 @@ let go2Socks5s = [
   "*cloudatacdn.com",
   "*.loadshare.org",
 ];
-let addresses = ["push.cf.090227.xyz"];
+let addresses = [];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
